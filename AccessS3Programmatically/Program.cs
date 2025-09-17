@@ -2,9 +2,22 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("testing pull changes locally");
+            BucketOperations bucketOperations = new BucketOperations();
+
+            //await bucketOperations.CreateBucket("testbucketcreatedprogrammatically");
+            //Console.WriteLine("bucket created");
+
+            //await bucketOperations.GetBucketList();
+            //Console.WriteLine();
+            //await S3ClientProvider.s3Client.DeleteBucketAsync("testbucketcreatedprogrammatically");
+            //Console.WriteLine();
+            //Console.WriteLine("Bucket deleted");
+            //Console.WriteLine();
+
+
+
         }
     }
 }
