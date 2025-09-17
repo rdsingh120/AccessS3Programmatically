@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Git workflow test");
+            Console.WriteLine("testing pull changes locally");
         }
     }
 }
